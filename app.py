@@ -3,7 +3,6 @@ import boto3
 import os
 from langchain.llms.bedrock import Bedrock
 from langchain_community.embeddings import BedrockEmbeddings
-import numpy as np
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain.vectorstores import FAISS
